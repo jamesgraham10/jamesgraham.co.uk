@@ -7,8 +7,10 @@ module.exports = {
     },
     extend: {
       colors: {
-        black: "#4F4F4F",
-        milkBlue: "#FAFAFF",
+        black: "#1e1e1e",
+        pureBlack: "#000",
+        accent: "#0E349C",
+        tertiary: "#e9efff",
       },
     },
   },
