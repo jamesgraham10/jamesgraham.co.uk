@@ -34,6 +34,7 @@ export default function Hero() {
                 layout="fullWidth"
                 placeholder="none"
                 aspectRatio={1}
+                alt="James Graham"
                 src="../images/james.png"
               />
             </div>
