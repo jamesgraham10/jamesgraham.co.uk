@@ -1,7 +1,8 @@
 import React from "react";
 
-export default function Title({ children }) {
-  return (
-    <h1 className="text-3xl font-bold text-accent text-center">{children}</h1>
+export default function Title({ children, textColor = "text-accent" }) {
+  const classNames = [`text-3xl`, "font-bold", "text-center", textColor].join(
+    " "
   );
+  return <h1 className={classNames}>{children}</h1>;
 }
