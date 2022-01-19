@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: `https://www.yourdomain.tld`,
+    siteUrl: `https://www.jamesgraham.co.uk`,
+    title: "James Graham | JavaScript Developer",
   },
   plugins: [
     `gatsby-plugin-image`,
@@ -20,6 +21,15 @@ module.exports = {
       options: {
         typekit: {
           id: "jxt5pfo",
+        },
+      },
+    },
+    {
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+        trackingIds: ["G-SGSZVEZXLP"],
+        pluginConfig: {
+          respectDNT: true,
         },
       },
     },
