@@ -18,7 +18,7 @@ const experience = [
     id: 2,
     title: "Pulselive",
     desc: "Frontend Developer",
-    tags: ["angular"],
+    tags: ["angular", "nodejs"],
     link: "https://www.pulselive.com/",
     year: "2018-20",
     ref: "pulse",
@@ -38,15 +38,16 @@ const experience = [
 
 export default function Experience() {
   return (
-    <div className="max-w-screen-2xl py-8 md:py-16 px-4 md:px-8 mx-auto">
-      <Title>Experience</Title>
-      <p className="max-w-2xl mx-auto md:text-center text-gray-600 mt-4 mb-16">
-        Much of my experience centers around building fast, responsive,
-        data-driven single page apps in the latest and greatest JavaScript
-        frameworks. But I also have a host of experience, from hybrid mobile
-        apps all the way to WordPress.
-      </p>
-      <ItemList items={experience} />
+    <div className="bg-gray-50">
+      <div className="max-w-screen-2xl py-8 md:py-16 xl:py-32 px-4 md:px-8 mx-auto">
+        <Title>Experience</Title>
+        <p className="max-w-2xl mx-auto md:text-center text-gray-600 mt-4 mb-16">
+          Much of my career experience centers building single-page apps with
+          the latest and greatest JavaScript flavors, but I love pure CSS
+          styling too.
+        </p>
+        <ItemList items={experience} />
+      </div>
     </div>
   );
 }

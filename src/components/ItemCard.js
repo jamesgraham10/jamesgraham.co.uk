@@ -33,7 +33,7 @@ export default function ItemCard({ isFirst, item }) {
         <p className="text-gray-600 text-sm">{item.desc}</p>
 
         <img
-          className={`w-full shadow object-cover rounded-md my-2`}
+          className={`w-full shadow object-cover rounded-xl my-2`}
           alt={item.title}
           src={`${item.type}-${item.ref}.jpg`}
         />
@@ -41,7 +41,7 @@ export default function ItemCard({ isFirst, item }) {
         <div className="flex justify-between items-baseline">
           <div className="flex">
             {item.tags.map((t) => (
-              <div className="shadow-md text-sm rounded py-1 px-2 mr-2">
+              <div className="shadow-md bg-white text-sm rounded-xl py-1 px-2 mr-2">
                 {t}
               </div>
             ))}
