@@ -1,7 +1,6 @@
 import React from "react";
-
-import Title from "./Title";
-import ItemList from "./ItemList";
+import Section from "../../components/Section";
+import ItemList from "../../components/ItemList";
 
 const experience = [
   {
@@ -38,16 +37,14 @@ const experience = [
 
 export default function Experience() {
   return (
-    <div className="bg-gray-50">
-      <div className="max-w-screen-2xl py-8 md:py-16 xl:py-32 px-4 md:px-8 mx-auto">
-        <Title>Experience</Title>
-        <p className="max-w-2xl mx-auto md:text-center text-gray-600 mt-4 mb-16">
-          Much of my career experience centers building single-page apps with
-          the latest and greatest JavaScript flavors, but I love pure CSS
-          styling too.
-        </p>
-        <ItemList items={experience} />
-      </div>
-    </div>
+    <Section
+      backgroundColor="bg-gray-50"
+      title="Experience"
+      summary="Much of my career experience centers building single-page apps with
+    the latest and greatest JavaScript flavors, but I love pure CSS
+    styling too."
+    >
+      <ItemList items={experience} />
+    </Section>
   );
 }

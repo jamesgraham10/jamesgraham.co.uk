@@ -1,7 +1,6 @@
 import React from "react";
-
-import Title from "./Title";
-import ItemList from "./ItemList";
+import Section from "../../components/Section";
+import ItemList from "../../components/ItemList";
 
 const projects = [
   {
@@ -36,16 +35,13 @@ const projects = [
 
 export default function Projects() {
   return (
-    <div>
-      <div className="max-w-screen-2xl py-8 md:py-16 xl:py-32 px-4 md:px-8 mx-auto">
-        <Title>Projects</Title>
-        <p className="max-w-2xl mx-auto md:text-center mt-4 mb-16">
-          I started coding to create Chrome apps for my Chromebook. Two years
-          later I got my first dev job but I’ve never lost the love of creating
-          my own projects. Here's a sprinkling.
-        </p>
-        <ItemList items={projects} />
-      </div>
-    </div>
+    <Section
+      title="Projects"
+      summary="I started coding to create Chrome apps for my Chromebook. Two years
+    later I got my first dev job but I’ve never lost the love of creating
+    my own projects. Here's a sprinkling."
+    >
+      <ItemList items={projects} />
+    </Section>
   );
 }

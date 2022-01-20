@@ -39,10 +39,6 @@ export default function Layout({ children }) {
         <meta name="theme-color" content="#ffffff" />
       </Helmet>
       <div className="text-black">
-        <header>
-          <nav></nav>
-        </header>
-
         <main>{children}</main>
         <footer className="py-8 bg-topography">
           <div className="max-w-screen-2xl text-sm text-accent mx-auto text-center font-medium">
