@@ -4,7 +4,7 @@ import { StaticImage } from "gatsby-plugin-image";
 
 export default function Hero() {
   return (
-    <div className="py-20 md:py-32 hero-bg">
+    <div className="py-20 md:py-32 bg-topography">
       <div className="max-w-3xl mx-auto px-4">
         <div className="flex items-center mb-4">
           <div className="mr-4">

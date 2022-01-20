@@ -26,7 +26,7 @@ const experience = [
   },
   {
     id: 3,
-    title: "Many Ltd",
+    title: "Many Digital",
     tags: ["vue", "express", "nodejs"],
     desc: "Web Developer",
     link: "https://www.many.co.uk/",
