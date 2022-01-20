@@ -16,7 +16,7 @@ export default function Hero() {
           </div>
           <HeroImage />
         </div>
-        <ButtonLink href="https://codesandbox.com">
+        <ButtonLink href="https://codesandbox.io/s/ghps6">
           <CodeSandboxIcon />
           Open this site in Code Sandbox
         </ButtonLink>
