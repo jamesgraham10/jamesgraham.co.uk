@@ -7,9 +7,9 @@ export default function HeroIntro() {
       <h1 className="text-3xl font-bold mb-4 text-accent">
         I'm a JavaScript developer based in London.
       </h1>
-      <p>
+      <p className="max-w-xl">
         <strong>4+ years</strong> experience with React, Node.js and various
-        other tasty{" "}
+        other{" "}
         <span
           className="py-.5 px-1 font-bold"
           style={{
@@ -19,7 +19,7 @@ export default function HeroIntro() {
           JS
         </span>{" "}
         flavors. In my own time I like to run, cook, share food with friends and
-        travel. At some point I want to cycle around the world!
+        travel.
       </p>
     </>
   );

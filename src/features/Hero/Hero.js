@@ -4,7 +4,6 @@ import ButtonLink from "../../components/ButtonLink";
 import CodeSandboxIcon from "../../components/icons/CodeSandboxIcon";
 
 import HeroIntro from "./HeroIntro";
-import HeroImage from "./HeroImage";
 
 export default function Hero() {
   return (
@@ -14,7 +13,6 @@ export default function Hero() {
           <div className="mr-4">
             <HeroIntro />
           </div>
-          <HeroImage />
         </div>
         <ButtonLink href="https://codesandbox.io/s/ghps6">
           <CodeSandboxIcon />

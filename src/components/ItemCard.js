@@ -39,11 +39,13 @@ export default function ItemCard({ isFirst, item }) {
       <ItemTitle title={item.title} link={item.link} />
       <p className="text-gray-600 text-sm">{item.desc}</p>
 
-      <img
-        className="w-full shadow object-cover rounded-xl my-2"
-        alt={item.title}
-        src={`${item.type}-${item.ref}.jpg`}
-      />
+      <a href={item.link} target="_blank" rel="noreferrer">
+        <img
+          className="w-full shadow object-cover rounded-xl my-2"
+          alt={item.title}
+          src={`${item.type}-${item.ref}.jpg`}
+        />
+      </a>
 
       <div className="flex justify-between items-baseline">
         <ItemTags tags={item.tags} />

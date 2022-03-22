@@ -5,6 +5,16 @@ import ItemList from "../../components/ItemList";
 const projects = [
   {
     id: 1,
+    title: "Gigscout",
+    desc: "Playlists for the best gigs in London - updated daily",
+    tags: ["react", "spotify", "firebase", "node-cron"],
+    link: "https://gigscout.app",
+    year: "2022",
+    ref: "gigscout",
+    type: "project",
+  },
+  {
+    id: 2,
     title: "Stories To Tell",
     desc: "Remember, write and share your life story",
     tags: ["react", "graphql"],
@@ -13,15 +23,15 @@ const projects = [
     ref: "stt",
     type: "project",
   },
-  {
-    id: 2,
-    title: "Football Planner",
-    desc: "Scheduler to watch matches on TV",
-    tags: ["vue", "laravel"],
-    year: "2017",
-    ref: "fp",
-    type: "project",
-  },
+  // {
+  //   id: 3,
+  //   title: "Football Planner",
+  //   desc: "Scheduler to watch matches on TV",
+  //   tags: ["vue", "laravel"],
+  //   year: "2017",
+  //   ref: "fp",
+  //   type: "project",
+  // },
   {
     id: 3,
     title: "Sherpa",
